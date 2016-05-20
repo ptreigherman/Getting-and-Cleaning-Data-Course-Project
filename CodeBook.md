@@ -1,10 +1,11 @@
 # Code Book
 
 ## Original Data Set Description
-
+The original data set, together with the detailed descriptions of the variables, can be found on this website:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Transformations Performed
-The following operations and transformations  ere performed on the original data by the R script:
+The following operations and transformations were performed on the original data by the R script:
 
 1. Read the following data tables:
   * UCI HAR Dataset\features.txt
