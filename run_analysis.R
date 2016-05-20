@@ -48,6 +48,6 @@ tidy$Activity <- gsub( "LAYING", "LYING", tidy$Activity )
 
 # Save final data frame
 save( tidy, file = "tidy.Rdata" )
-write.csv( tidy, file = "tidy.csv" )
-
+write.csv( tidy, file = "tidy.csv", row.names = FALSE )
+write.table( tidy, file = "tidy.txt", row.names = FALSE )
 
